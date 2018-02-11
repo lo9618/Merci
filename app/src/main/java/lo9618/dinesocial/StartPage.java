@@ -20,7 +20,7 @@ class StartPage extends AppCompatActivity {
         getHelp = (Button) findViewById(R.id.get_help);
         journal = (Button) findViewById(R.id.journal);
         settings = (Button) findViewById(R.id.settings);
-        
+
         // Get help button
         getHelp.setOnClickListener(new View.OnClickListener(){
             @Override

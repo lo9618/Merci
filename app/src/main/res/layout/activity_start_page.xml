@@ -18,8 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
-        android:typeface="normal"
         android:background="@color/get_help"
+        android:fontFamily="@font/comfortaa-regular"
+        android:textColor="@color/font_colour"
         android:text="Get Help"/>
 
     <Button
@@ -29,7 +30,8 @@
         android:layout_weight="1"
         android:background="@color/journal"
         android:text="Journal"
-
+        android:fontFamily="@font/comfortaa-regular"
+        android:textColor="@color/font_colour"
         android:layout_below="@+id/get_help"
         android:layout_alignLeft="@+id/get_help"
         android:layout_alignStart="@+id/get_help"/>
@@ -41,7 +43,8 @@
         android:layout_weight="1"
         android:background="@color/settings"
         android:text="Settings"
-
+        android:fontFamily="@font/comfortaa-regular"
+        android:textColor="@color/font_colour"
         android:layout_below="@+id/journal"
         android:layout_alignLeft="@+id/journal"
         android:layout_alignStart="@+id/journal"/>
