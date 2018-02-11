@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="background">#FEE5AD</color>
+    <color name="journal">#FACA66</color>
+    <color name="get_help">#FEE5AD</color>
+    <color name="settings">#F7A541</color>
+    <color name="buttoncolour">#A1DBB2</color>
 </resources>

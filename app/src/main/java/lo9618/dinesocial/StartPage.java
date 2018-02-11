@@ -20,12 +20,7 @@ class StartPage extends AppCompatActivity {
         getHelp = (Button) findViewById(R.id.get_help);
         journal = (Button) findViewById(R.id.journal);
         settings = (Button) findViewById(R.id.settings);
-
-
-        // Layout text
-        TextView introduction = (TextView) findViewById(R.id.intro);
-        introduction.setText("Hello, we are not dining app.");
-
+        
         // Get help button
         getHelp.setOnClickListener(new View.OnClickListener(){
             @Override
